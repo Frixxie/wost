@@ -77,8 +77,8 @@ func main() {
 	}
 	wosts := ReadWost(os.Args[1])
 	for _, wost := range wosts {
-		fmt.Println("------")
 		fmt.Println(wost)
+		fmt.Println("------")
 	}
 	fmt.Println("Total time spent:", WostTotTime(wosts))
 }
