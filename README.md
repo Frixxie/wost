@@ -11,7 +11,7 @@ go build
 
 To run: 
 ```
-wost <csvfile>
+./wost <csvfile>
 ```
 
 you can see `example.csv` for the only acceptable format.
